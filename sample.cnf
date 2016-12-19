@@ -1,0 +1,18 @@
+[ req ]
+prompt = no
+default_bits = 2048
+default_keyfile = key.pem
+encrypt_key = no
+distinguished_name = req_distinguished_name
+string_mask = utf8only
+req_extensions = v3_req
+
+[ req_distinguished_name ]
+O=Internet Widgits Pty Ltd
+L=Grand Rapids
+ST=Michigan
+C=US
+CN=www.example.com
+
+[ v3_req ]
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment

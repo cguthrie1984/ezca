@@ -1,0 +1,19 @@
+{
+  "name": "ezca",
+  "version": "1.0.0",
+  "description": "The easy, RESTful certificate authority!",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "x509",
+    "certificate",
+    "ssl"
+  ],
+  "dependencies": {
+    "express" : "x",
+    "multer" : "x"
+  },
+  "author": "Chris Guthrie"
+}
